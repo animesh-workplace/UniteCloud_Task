@@ -1,0 +1,46 @@
+/*
+	Global CSS
+*/
+html {
+	overflow-y: auto;
+	background-color: #f6f8f9;
+}
+pre {
+	border-left: none;
+	border-radius: 9px;
+}
+.input,
+.textarea {
+	border-radius: 0.75em;
+}
+:focus {
+	outline: none;
+}
+
+/*
+	Scrollbar CSS
+*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #284948;
+	border-radius: 10px;
+}
+* {
+	scrollbar-color: #284948 #fff;
+	scrollbar-width: thin;
+}
+
+/*
+	Selection CSS
+*/
+::selection {
+	background-color: #284948 !important;
+	color: #f6f8f9 !important;
+}
+::-moz-selection {
+	background-color: #284948 !important;
+	color: #f6f8f9 !important;
+}
