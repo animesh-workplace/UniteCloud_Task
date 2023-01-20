@@ -1,7 +1,7 @@
 <template>
-	<section class="bg-[#FBFEE9] p-24">
+	<section class="bg-[#FBFEE9] md:p-24 px-12 py-20">
 		<div class="container mx-auto">
-			<div class="grid grid-cols-12 gap-8 content-center items-start">
+			<div class="grid grid-cols-6 md:grid-cols-12 gap-8 content-center items-start">
 				<div class="col-span-6">
 					<div class="mb-16">
 						<h2 class="text-[26px] font-bold uppercase text-[#284948]">HOLISTIC WELLNESS:</h2>
@@ -26,7 +26,12 @@
 						<h2 class="text-[26px] font-bold uppercase text-[#284948]">6 DIMENSIONS OF WELLNESS</h2>
 					</div>
 					<div class="grid grid-cols-3 gap-x-2 gap-y-8">
-						<div :class="item.order" v-for="(item, index) in icon_items" :key="index">
+						<div
+							:key="index"
+							data-aos="fade-up"
+							:class="item.order"
+							v-for="(item, index) in icon_items"
+						>
 							<div v-if="item.item == 1">
 								<div class="w-20 h-20 rounded bg-[#41345F] p-4">
 									<img src="@/assets/images/wellness-icon1.png" alt="Icon1" />
@@ -63,12 +68,12 @@
 export default {
 	data: () => ({
 		icon_items: [
-			{ item: 1, order: 'justify-self-center' },
-			{ item: 2, order: 'justify-self-center' },
-			{ item: 3, order: 'justify-self-center' },
-			{ item: 1, order: 'justify-self-end' },
-			{ item: 2, order: 'justify-self-end' },
-			{ item: 3, order: 'justify-self-end' },
+			{ item: 1, order: 'justify-self-start md:justify-self-center' },
+			{ item: 2, order: 'justify-self-start md:justify-self-center' },
+			{ item: 3, order: 'justify-self-start md:justify-self-center' },
+			{ item: 1, order: 'justify-self-center md:justify-self-end' },
+			{ item: 2, order: 'justify-self-center md:justify-self-end' },
+			{ item: 3, order: 'justify-self-center md:justify-self-end' },
 		],
 	}),
 	components: {},
