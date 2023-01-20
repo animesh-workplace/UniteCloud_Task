@@ -1,8 +1,8 @@
 <template>
-	<section class="bg-[#FdFdFd] py-24">
+	<section class="bg-[#FdFdFd] md:py-24 py-10">
 		<h2 class="text-[26px] font-bold uppercase text-[#284948] text-center mb-16">HOW DOES THIS WORK ?</h2>
-		<div class="grid grid-cols-3 gap-4 px-24 items-center">
-			<div>
+		<div class="grid grid-cols-3 gap-4 px-8 md:px-24 items-end md:items-center">
+			<div class="mb-10 md" data-aos="fade-left" data-aos-offset="500">
 				<div class="border-b-4 border-[#F28737] p-6 mb-6 arrow-left">
 					<h3 class="text-[26px] font-medium text-center text-[#DD7A1D] mb-4">Step 1</h3>
 					<h4 class="font-medium text-center">
@@ -11,7 +11,8 @@
 				</div>
 				<h4 class="font-normal text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
 			</div>
-			<div>
+
+			<div class="mb-10 md" data-aos="fade-up" data-aos-offset="500">
 				<div class="border-b-4 border-[#F28737] p-6 mb-6">
 					<h3 class="text-[26px] font-medium text-center text-[#DD7A1D] mb-4">Step 2</h3>
 					<h4 class="font-medium text-center">
@@ -25,7 +26,8 @@
 					<img class="mx-auto" src="@/assets/images/work.png" alt="Image1" />
 				</div>
 			</div>
-			<div>
+
+			<div class="mb-10 md" data-aos="fade-right" data-aos-offset="500">
 				<div class="border-b-4 border-[#F28737] p-6 mb-6 arrow-right">
 					<h3 class="text-[26px] font-medium text-center text-[#DD7A1D] mb-4">Step 3</h3>
 					<h4 class="font-medium text-center">
@@ -67,7 +69,7 @@ export default {
 	position: relative;
 }
 .arrow-right::after {
-	left: -10%;
+	left: -12%;
 	fill: red;
 	width: 20px;
 	height: 20px;
