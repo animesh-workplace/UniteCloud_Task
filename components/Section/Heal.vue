@@ -1,17 +1,17 @@
 <template>
-	<section class="bg-[url('@/assets/images/heal-bg.png')] bg-cover bg-no-repeat px-12 py-56">
+	<section class="bg-[url('@/assets/images/heal-bg.png')] bg-cover bg-no-repeat px-12 py-24 md:py-48">
 		<div class="container mx-auto">
-			<div class="grid grid-cols-12 gap-20 content-center items-center">
-				<div class="col-span-5">
+			<div class="grid grid-cols-7 md:grid-cols-12 gap-20 content-center items-center">
+				<div class="col-span-7 md:col-span-5">
 					<div class="border-y-4 border-[#F28737] py-4">
 						<h2 class="text-[36px] font-bold uppercase text-center text-[#284948]">We heal you</h2>
 						<h2 class="text-[44px] font-medium uppercase text-center text-[#284948]">Naturally</h2>
 					</div>
 				</div>
 				<div class="col-span-7">
-					<div class="grid grid-cols-4 gap-12">
-						<div v-for="(item, index) in icon_items" :key="index">
-							<div class="p-16 rounded bg-gradient-to-t from-[#3E8C58] to-[#284948]">
+					<div class="grid grid-cols-2 md:grid-cols-4 gap-12">
+						<div data-aos="fade-up" v-for="(item, index) in icon_items" :key="index">
+							<div class="p-28 md:p-16 rounded bg-gradient-to-t from-[#3E8C58] to-[#284948]">
 								<img
 									alt="Icon2"
 									class="h-18 w-18 ml-2"
