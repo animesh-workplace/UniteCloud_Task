@@ -68,12 +68,12 @@
 export default {
 	data: () => ({
 		icon_items: [
-			{ item: 1, order: 'justify-self-start md:justify-self-center' },
-			{ item: 2, order: 'justify-self-start md:justify-self-center' },
-			{ item: 3, order: 'justify-self-start md:justify-self-center' },
-			{ item: 1, order: 'justify-self-center md:justify-self-end' },
-			{ item: 2, order: 'justify-self-center md:justify-self-end' },
-			{ item: 3, order: 'justify-self-center md:justify-self-end' },
+			{ item: 1, order: 'justify-self-start lg:justify-self-center' },
+			{ item: 2, order: 'justify-self-start lg:justify-self-center' },
+			{ item: 3, order: 'justify-self-start lg:justify-self-center' },
+			{ item: 1, order: 'justify-self-start lg:justify-self-end' },
+			{ item: 2, order: 'justify-self-start lg:justify-self-end' },
+			{ item: 3, order: 'justify-self-start lg:justify-self-end' },
 		],
 	}),
 	components: {},
