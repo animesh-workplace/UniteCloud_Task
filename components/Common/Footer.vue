@@ -3,7 +3,7 @@
 		<div class="container mx-auto px-6 py-8">
 			<h2 class="font-bold text-white pl-14">Reach out to us</h2>
 			<h3 class="font-normal text-white pl-14">Lorem epsum Pvt Ltd.</h3>
-			<div class="grid grid-cols-1 gap-8 px-6 py-8 md:grid-cols-3">
+			<div class="grid grid-cols-1 gap-8 px-6 py-8 lg:grid-cols-3">
 				<div>
 					<ul class="text-gray-300 text-sm font-normal mt-6">
 						<li class="mb-4">
@@ -35,6 +35,7 @@
 						</li>
 					</ul>
 				</div>
+
 				<div>
 					<div class="grid grid-cols-3">
 						<div :key="title" class="justify-self-center" v-for="(items, title) in footer_items">
@@ -46,7 +47,7 @@
 								<button
 									type="button"
 									v-if="title == 'Need Help?'"
-									class="text-white text-semibold bg-[#F28737] rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 mt-4"
+									class="text-white text-semibold bg-[#F28737] rounded-lg text-sm px-5 py-2.5 text-center mr-0 mt-4"
 								>
 									REQUEST DEMO
 								</button>
@@ -54,6 +55,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div>
 					<h2 class="mb-2 font-bold text-white">Subscribe our newsletter</h2>
 					<div class="relative w-full">
