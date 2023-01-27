@@ -37,7 +37,7 @@
 									<img src="@/assets/images/wellness-icon1.png" alt="Icon1" />
 								</div>
 								<div class="mt-2">
-									<h4 class="font-medium text-center">Spiritual</h4>
+									<h4 class="text-xs lg:text-sm font-medium text-center">Spiritual</h4>
 								</div>
 							</div>
 							<div v-if="item.item == 2">
@@ -45,7 +45,7 @@
 									<img src="@/assets/images/wellness-icon2.png" alt="Icon1" />
 								</div>
 								<div class="mt-2">
-									<h4 class="font-medium text-center">Environmental</h4>
+									<h4 class="text-xs lg:text-sm font-medium text-center">Environmental</h4>
 								</div>
 							</div>
 							<div v-if="item.item == 3">
@@ -53,7 +53,7 @@
 									<img src="@/assets/images/wellness-icon3.png" alt="Icon1" />
 								</div>
 								<div class="mt-2">
-									<h4 class="font-medium text-center">Emotional</h4>
+									<h4 class="text-xs lg:text-sm font-medium text-center">Emotional</h4>
 								</div>
 							</div>
 						</div>
