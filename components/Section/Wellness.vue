@@ -25,7 +25,7 @@
 					<div class="mb-16 pt-6">
 						<h2 class="text-[26px] font-bold uppercase text-[#284948]">6 DIMENSIONS OF WELLNESS</h2>
 					</div>
-					<div class="grid grid-cols-3 gap-x-2 gap-y-8">
+					<div class="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-8">
 						<div
 							:key="index"
 							data-aos="fade-up"
