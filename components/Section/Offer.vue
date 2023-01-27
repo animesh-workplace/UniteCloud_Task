@@ -1,9 +1,11 @@
 <template>
-	<section class="bg-[url('@/assets/images/heal-bg.png')] bg-cover bg-no-repeat px-12 py-32">
+	<section class="bg-[url('@/assets/images/heal-bg.png')] bg-cover bg-no-repeat px-10 py-32">
 		<h2 class="text-[36px] font-bold uppercase text-center text-[#284948] mb-16">WHAT WE OFFER</h2>
 
 		<div class="container mx-auto">
-			<div class="grid grid-cols-3 md:grid-cols-4 gap-20 content-center items-center px-auto md:px-44">
+			<div
+				class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-20 content-center items-center px-auto xl:px-44"
+			>
 				<div v-for="(item, index) in icon_items" :key="index">
 					<div class="flex items-center" data-aos="fade-up">
 						<div class="w-20 h-20 rounded bg-[#D2E289] p-4 inline-block mr-2">
