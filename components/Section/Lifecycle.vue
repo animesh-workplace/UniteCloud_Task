@@ -5,8 +5,8 @@
 		</h2>
 
 		<div class="container mx-auto">
-			<div class="grid grid-cols-2 md:grid-cols-12 gap-20">
-				<div data-aos="fade-up" class="col-span-4 md:col-start-2 md:col-span-2">
+			<div class="grid grid-cols-2 xl:grid-cols-12 gap-20">
+				<div data-aos="fade-up" class="col-span-4 xl:col-start-2 xl:col-span-2">
 					<div
 						class="bg-[url('@/assets/images/lifecycle-image1.png')] bg-cover bg-no-repeat rounded-xl bg-clip-content"
 					>
@@ -18,7 +18,7 @@
 						<h4 class="font-medium text-center">Healthcare & Medical Cost</h4>
 					</div>
 				</div>
-				<div data-aos="fade-up" class="col-span-4 md:col-span-2">
+				<div data-aos="fade-up" class="col-span-4 xl:col-span-2">
 					<div
 						class="bg-[url('@/assets/images/lifecycle-image2.png')] bg-cover bg-no-repeat rounded-xl bg-clip-content"
 					>
@@ -28,21 +28,21 @@
 					</div>
 					<div class="px-4 mt-8">
 						<h4 class="font-medium text-center">
-							Decrease quality of life, pain, anxiety, incovenience &
+							Decrease quality of life, pain, anxiety, incovenience
 						</h4>
 					</div>
 				</div>
-				<div data-aos="fade-up" class="col-span-4 md:col-span-2">
+				<div data-aos="fade-up" class="col-span-4 xl:col-span-2">
 					<div
 						class="bg-[url('@/assets/images/lifecycle-image3.png')] bg-cover bg-no-repeat rounded-xl bg-clip-content"
 					>
-						<div class="equal-symbol py-12 px-4 backdrop-brightness-50 rounded-xl">
+						<div class="equal-symbol 2xl:py-12 py-16 px-4 backdrop-brightness-50 rounded-xl">
 							<h3 class="text-white text-semibold text-2xl text-center">Intangible Cost</h3>
 						</div>
 					</div>
 					<div class="px-4 mt-8">
 						<h4 class="font-medium text-center">
-							Decrease quality of life, pain, anxiety, incovenience &
+							Decrease quality of life, pain, anxiety, incovenience
 						</h4>
 					</div>
 				</div>
@@ -56,7 +56,7 @@
 					</div>
 					<div class="px-4 mt-8">
 						<h4 class="font-medium text-center">
-							Decrease quality of life, pain, anxiety, incovenience &
+							Decrease quality of life, pain, anxiety, incovenience
 						</h4>
 					</div>
 				</div>
@@ -99,13 +99,13 @@ export default {
 	position: absolute;
 	transform: scale(2);
 }
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
 	.add-symbol::after {
-		top: 150%;
+		top: 155%;
 		right: 50%;
 	}
 	.equal-symbol::after {
-		top: 160%;
+		top: 165%;
 		right: 50%;
 	}
 }
