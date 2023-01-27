@@ -37,7 +37,7 @@
 			</div>
 			<div
 				id="navbar-sticky"
-				:class="show_menu ? 'mt-3' : 'hidden lg:ml-96'"
+				:class="show_menu ? 'mt-3' : 'hidden'"
 				class="items-center justify-between w-full md:flex md:w-auto md:order-1"
 			>
 				<ul
