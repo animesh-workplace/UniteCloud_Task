@@ -2,7 +2,7 @@
 	<div>
 		<CommonNavBar />
 		<main class="flex bg-gray-100 min-h-screen">
-			<Nuxt class="w-full mt-16" />
+			<Nuxt class="w-full mt-12" />
 		</main>
 		<CommonFooter />
 	</div>
