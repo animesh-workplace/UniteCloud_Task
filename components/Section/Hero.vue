@@ -1,14 +1,14 @@
 <template>
 	<section class="bg-white">
 		<div
-			class="grid grid-cols-12 gap-4 px-8 py-12 md:px-24 bg-white md:py-64 md:bg-[url('@/assets/images/hero.png')] md:bg-contain md:bg-no-repeat md:bg-right place-content-center"
+			class="grid grid-cols-12 gap-4 px-8 py-12 lg:px-18 bg-white lg:py-64 lg:bg-[url('@/assets/images/hero.png')] lg:bg-contain lg:bg-no-repeat lg:bg-right place-content-center"
 		>
-			<div class="md:col-span-8 col-span-12">
-				<div class="text-center md:text-left">
-					<h1 class="text-2xl md:text-4xl font-normal tracking-wide leading-none text-[#284948] mb-16">
+			<div class="lg:col-span-8 col-span-12">
+				<div class="text-center lg:text-left">
+					<h1 class="text-2xl lg:text-4xl font-normal tracking-wide leading-none text-[#284948] mb-16">
 						LOOK AFTER THE PEOPLE,<br />WHO LOOK AFTER YOUR BUSINESS
 					</h1>
-					<h1 class="text-2xl md:text-4xl font-semibold tracking-wide leading-none text-[#284948] mb-12">
+					<h1 class="text-2xl lg:text-4xl font-semibold tracking-wide leading-none text-[#284948] mb-12">
 						HEALTH WELLNESS
 					</h1>
 					<button
